@@ -1,7 +1,7 @@
 name: pulltemp-daily-task
 on:
   schedule:
-    - cron: '0 20 12 * * ? *'
+    - cron: '0 20 12 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
